@@ -10,3 +10,20 @@ h1 {
     color: #032840;
     font-size: 4em;
 }
+
+a {
+    color: #167bab;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}

@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Stephen Mayfield - Contact</title>
+    <script src="https://kit.fontawesome.com/148b26ce6e.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
+<body class="d-flex flex-column">
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #07577d; opacity: 90%;">
         <a class="navbar-brand" href="index.html">Stephen Mayfield</a>
@@ -35,73 +37,90 @@
         </div>
     </nav>
 
-    <div class="container">
 
-        <div class="alert alert-success mt-4" role="alert">
-            Thank you for your submission! </div>
+    <div id="page-content">
+        <div class="container">
 
-        <div class="row mt-4 mt-md-4">
-            <div class="col">
-                <h1 class="text-center">Contact</h1>
+            <div class="alert alert-success mt-4" role="alert">
+                Thank you for your submission! </div>
 
-            </div>
-        </div>
+            <div class="row mt-4 mt-md-4">
+                <div class="col">
+                    <h1 class="text-center">Contact</h1>
 
-        <div class="row">
-            <div class="col-md-4 py-3">
-                <div class="row">
-                    <img src="https://via.placeholder.com/300" class="img-fluid rounded m-auto pb-1 d-block"
-                        alt="placeholder">
-                </div>
-                <div class="row">
-                    <img src="https://via.placeholder.com/300" class="img-fluid rounded m-auto pt-1 d-block"
-                        alt="placeholder">
                 </div>
             </div>
-            <div class="col-md-8 py-3">
 
-                <form>
+            <div class="row">
+                <div class="col-md-4 py-3">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="form group">
-                                <label for="nameFirst">First Name</label>
-                                <input type="text" class="form-control" placeholder="First">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form group mt-2 mt-md-0">
-                                <label for="nameLast">Last Name</label>
-                                <input type="text" class="form-control" placeholder="Last">
-                            </div>
-                        </div>
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded m-auto pb-1 d-block"
+                            alt="placeholder">
                     </div>
-                    <div class="form group mt-2">
-                        <label for="emailInput">Email address</label>
-                        <input type="email" class="form-control" placeholder="example@domain.com">
+                    <div class="row">
+                        <img src="https://via.placeholder.com/300" class="img-fluid rounded m-auto pt-1 d-block"
+                            alt="placeholder">
                     </div>
-                    <div class="form-group mt-2">
-                        <label for="navigationSource">How did you find this portfolio?</label>
-                        <select class="form-control">
-                            <option selected disabled value="select">Select one...</option>
-                            <option>LinkedIn</option>
-                            <option>GitHub</option>
-                            <option>Business Card/Personal Reference</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="messageToAdmin">Enter your message here</label>
-                        <textarea class="form-control" rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" class="btn btn-secondary">Reset</button>
-                </form>
+                </div>
+                <div class="col-md-8 py-3">
 
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form group">
+                                    <label for="nameFirst">First Name</label>
+                                    <input type="text" class="form-control" placeholder="First">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form group mt-2 mt-md-0">
+                                    <label for="nameLast">Last Name</label>
+                                    <input type="text" class="form-control" placeholder="Last">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form group mt-2">
+                            <label for="emailInput">Email address</label>
+                            <input type="email" class="form-control" placeholder="example@domain.com">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="navigationSource">How did you find this portfolio?</label>
+                            <select class="form-control">
+                                <option selected disabled value="select">Select one...</option>
+                                <option>LinkedIn</option>
+                                <option>GitHub</option>
+                                <option>Business Card/Personal Reference</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="messageToAdmin">Enter your message here</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                    </form>
+
+                </div>
             </div>
-        </div>
 
+
+        </div>
 
     </div>
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <span>Stephen Mayfield</span>
+            <a href="https://www.linkedin.com/in/stephen-mayfield-a50258b7" alt="Stephen Mayfield's LinkedIn Profile"
+                target="_blank"><i class="px-2 fab fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/stmayfield" alt="Stephen Mayfield's GitHub Page" target="_blank"><i
+                    class="px-2 fab fa-github-square fa-lg"></i></a>
+            <a href="mailto:code@stephenmayfield.com" alt="Stephen Mayfield's Portfolio Email Address"><i
+                    class="px-2 fab fas fa-envelope fa-lg"></i></a>
+
+        </div>
+    </footer>
 
 
 
